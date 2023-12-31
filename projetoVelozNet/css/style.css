@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navegacao {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    padding: 25px 40px;
+    box-shadow: 2px 2px 4px #00000042;
+    top: 0px;
+    left: 0px;
+}
+
+.logo a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(18, 18, 119);
+    font-size: 1.1em;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul a {
+    color: black;
+    padding: 10px;
+}
+
+ul .cadastro {
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgb(18, 18, 119);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.texto_principal {
+    max-width: 50%;
+    text-align: center;
+    padding: 5%
+}
+
+.texto_principal h1 {
+    font-size: 2em;
+    padding-bottom: 5%;
+    color: rgb(18, 18, 119);
+    text-shadow: 2px 2px 3px #00000062;
+}
+
+.texto_principal p {
+    text-align: justify;
+    color: #363535;
+    padding-bottom: 5%;
+}
+
+.btn_pricipal {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: rgb(18, 18, 119);
+}
+
+.img_principal {
+    width: 250px;
+    margin: 40px 80px;
+}
+
+.img_principal img {
+    max-width: 100%;
+}
+
+.planos {
+    padding: 2%  10%;
+}
+
+.planos h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    background-image: linear-gradient(to right, #fff, rgb(5, 5, 77), #fff);
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #6b6a6a;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.card h2 {
+    text-transform: uppercase;
+    padding: 5%;
+}
+
+.card .tipo {
+    font-size: 2em;
+    color: #363535;
+    padding-bottom: 5%;
+}
+
+.card .preco {
+    font-size: 1.5em;
+    padding-bottom: 10%;
+}
+
+.card span {
+    color: #6b6a6a;
+    font-size: 16px;
+}
+
+.card .btn-card {
+    background-color: blue;
+    color: #fff;
+    margin: 5%;
+    padding: 5%;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.card .btn-card:hover {
+    background-color: rgb(5, 5, 77);
+    transition: .5s;
+}
+
+.rodape {
+    background-color: rgb(5, 5, 77);
+    padding: 2%;
+}
+
+.rodape a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.sobre {
+    padding: 10%;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(214, 214, 252);
+    text-align: center;
+}
+
+.sobre h1 {
+    padding-bottom: 5%;
+    font-size: 2em;
+    color: rgb(5, 5, 77);
+}
+
+.sobre h2 {
+    text-align: left;
+    margin-left: 2%;
+    font-size: 1.2em;
+    color: #363535;
+}
+
+.sobre .texto_destacado {
+    font-weight: 700;
+    color: #363535;
+}
+
+.sobre p {
+    text-align: justify;
+    padding: 2%;
+}
+
+.dados_usuario {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.dados_form h1 {
+    font-size: 2.5em;
+    color: rgb(18, 18, 119);
+    text-shadow: 2px 2px 3px #00000062;
+    text-align: center;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.dados_form {
+    width: 60%;
+    background-color: #eaeaea;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    box-shadow: 2px 2px 5px #00000054;
+}
+  
+.dados_form label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+.dados_form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.dados_form button:hover {
+    background-color: #0056b3;
+}
+
+.escolher_plano p {
+    text-align: center;
+    font-weight: 500;
+    padding: 2%;
+}
+
+.opcoes_plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.opcoes_plano input {
+    width: 30px;
+    height: 30px;
+    margin: 2%;
+}
+
+.opcoes_plano label {
+    height: 20px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    padding: 0px 30% 5% 30%;
+}
+
+#aceitar_termos {
+    width: 10%;
+    height: 20px;
+    margin: 0px;
+}
+
+.checkbox p {
+    display: inline-block;
+}
+
+.dados_form button {
+    width: 20%;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 40% 0px 40%;
+}
+
+.cadastro_usuario {
+    background-color: #eaeaea;
+    width: 60%;
+    margin: 10% 20% 5% 20%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00000054;
+}
+
+.cadastro_usuario h1 {
+    margin-top: 5%;
+    font-size: 2.5em;
+    color: rgb(18, 18, 119);
+    text-shadow: 2px 2px 3px #00000062;
+    text-align: center;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.dados_cadastro {
+    align-items: center;
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+
+.dados_cadastro p{
+    background-color: #fff;
+    margin: 2%;
+    border: 1px solid #363535;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.cadastro_botoes {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.retornar {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(117, 117, 165);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.enviar_form {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(18, 18, 119);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.retornar:hover, .enviar_form:hover {
+    transform: scale(1.05);
+    background-color: rgb(102, 120, 140);
+}
