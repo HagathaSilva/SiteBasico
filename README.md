@@ -64,5 +64,5 @@ Este projeto é licenciado sob a [Licença MIT](./LICENSE) - veja o arquivo [LIC
 
 ## Contato:
 
-LinkedIn: [Hagatha Silva](www.linkedin.com/in/hagatha-byatriz-ribeiro-da-silva)
+LinkedIn: [Hagatha Silva](www.linkedin.com/in/hagatha-byatriz-ribeiro-da-silva/)
 
