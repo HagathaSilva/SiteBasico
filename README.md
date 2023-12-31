@@ -62,7 +62,3 @@ git clone https://github.com/HagathaSilva/SiteBasico.git
 
 Este projeto é licenciado sob a [Licença MIT](./LICENSE) - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-## Contato:
-
-LinkedIn: [Hagatha Silva](www.linkedin.com/in/hagatha-byatriz-ribeiro-da-silva)
-
